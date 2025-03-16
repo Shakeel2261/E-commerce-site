@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+    font-family: arial;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#logo{
+    font-weight: bold;
+    font-size: 40px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 40x;
+    font-weight: 600;
+    cursor: pointer;
+}
+#search{
+    display: flex;
+    gap: 10px;
+    background-color: hsl(144, 40%, 87%);
+    padding: 15px;
+    border-radius: 30px;
+}
+#search i{
+    color: gray;
+}
+input{
+    border: none;
+    background-color: transparent;
+    padding-right: 140px;
+    outline: none;
+}
+#icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+#icons a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Aside */
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 40px 20px 180px;
+}
+#header h2{
+    font-weight: bold;
+}
+#header p span{
+    margin-left: 40px;
+    font-size: 15px;
+    color: rgb(82, 81, 81);
+}
+#header a{
+    color: black;
+    font-weight: bold;
+}
+#container{
+    display: flex;
+    width: 100%;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 40px 20px;
+    gap: 5px;
+    max-height: 400px;
+}
+aside .side-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+aside .side-bar a{
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
+aside hr{
+    height: 1px ;
+    color: black;
+    width: 170px;
+}
+aside #btn-1{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+}
+aside #btn-2{
+    background-color: rgb(209, 208, 208);
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+}
+
+/* cards styling */
+
+
+main .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.cards .card{
+    margin-left: 30px;
+}
+.card img{
+    height: 220px;
+}
+.card ul{
+    display: flex;
+    flex-direction: row;
+    margin: -20px 0 0 -42px;
+    align-items: center;
+    list-style: none;
+    gap: 7px;
+    color: orange;
+}
+.card ul p{
+    color: black;
+    margin-left: 8px;
+}
+.card .price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: -20px;
+}
+.card .price p{
+    background-color: #FECACA;
+    padding: 10px 13px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#cart1{
+    margin-top: 40px;
+}
+#cart1 .card img{
+    height: 200px;
+}
+#cart2{
+    margin-top: 40px;
+}
+#cart2 .card img{
+    height: 200px;
+}
+
+#move{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 60px 0 60px 150px;
+}
+#move a{
+    color: black;
+    padding: 8px 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+/* news letter styling */
+
+.newsletter{
+    display: flex;
+    background-color: black;
+    padding: 40px 40px;
+    margin: 20px 100px;
+    border-radius: 20px;
+    gap: 40px;
+}
+.newsletter .newsletter-left h1{
+    color: white;
+    font-size: 40px;
+}
+.newsletter .newsletter-right input{
+    margin-top : 2rem ;
+    width: 25rem ;
+    background-color: white;
+    padding: 0.8rem;
+    border-radius: 20px;
+    
+}
+.newsletter-btn{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.newsletter-btn:hover{
+    cursor: pointer;
+}
+#footer-top{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 85%;
+    margin-left: 100px;
+    line-height: 30px;
+}
+#footer-top i{
+    font-size: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#footer-top .list p{
+    font-size: 15px;
+    width: 60%;
+    color: rgb(83, 83, 83);
+}
+#line-break {
+    margin-top: 50px;
+    font-size: 1px;
+    width: 85%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px 50px;
+}

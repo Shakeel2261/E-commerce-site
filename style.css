@@ -1,0 +1,406 @@
+*{
+    box-sizing: border-box;
+    font-family: arial;
+    list-style: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#logo{
+    font-weight: bold;
+    font-size: 40px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 40x;
+    font-weight: 600;
+    cursor: pointer;
+}
+#search{
+    display: flex;
+    gap: 10px;
+    background-color: hsl(144, 40%, 87%);
+    padding: 15px;
+    border-radius: 30px;
+}
+#search i{
+    color: gray;
+}
+input{
+    border: none;
+    background-color: transparent;
+    padding-right: 140px;
+    outline: none;
+}
+#icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+#icons a{
+    color: black;
+    text-decoration: none;
+}
+
+#hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 30px 30px 0px 30px;
+    background-color: hsl(144, 40%, 87%);
+}
+#hero-section #left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+#hero-section h1{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+}
+#hero-section p{
+    margin-top: -30px;
+}
+#hero-section button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 70px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+#hero-section img{
+    margin-left: 60px;
+    height: 600px;
+    width: 600px;
+}
+#slide{
+    display: flex;
+    gap: 20px;
+}
+#slide h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+#section2{
+    background-color: black;
+    margin-top: -20px;
+}
+#section2 ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 90px;
+}
+#section2 img{
+    height: 30px;
+}
+.section3 h1{
+    display: flex;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.card img{
+    height: 300px;
+}
+.card ul{
+    display: flex;
+    flex-direction: row;
+    margin: -20px 0 0 -42px;
+    align-items: center;
+    list-style: none;
+    gap: 7px;
+    color: orange;
+}
+.card .p2{
+    text-decoration: line-through;
+}
+.card ul p{
+    color: black;
+    margin-left: 8px;
+}
+.card .price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: -20px;
+}
+.card .price p{
+    background-color: #FECACA;
+    padding: 10px 13px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.section3 button{
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 15px 90px;
+    margin: 50px 0 0 40%;
+    border-radius: 30px;
+}
+#section4{
+    margin-top: 80px;
+    border-top: 1px solid grey;
+}
+#section4 .heading h1{
+    margin-top: 50px;
+}
+#section4 .container{
+    background-color: hsl(144, 40%, 87%);
+    padding: 15px 35px;
+    margin: 70px 100px;
+    border-radius: 20px;
+}
+#section4 .container1{
+    display: flex;
+    gap: 20px;
+}
+#section4 .container1 img{
+    height: 280px;
+    margin-bottom: 30px;
+}
+#section4 .container2{
+    display: flex;
+    gap: 20px;
+}
+#section4 .container2 img{
+    height: 280px;
+    margin-bottom: 30px;
+}
+.section3 .heading2 h1{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 90px;
+    text-transform:uppercase;
+}
+.section3 .boxes{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 10px 60px 70px 60px;
+
+}
+.section3 .boxes .box{
+    border: 1px solid rgb(71, 70, 70);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.section3 .boxes .box ul{
+    display: flex;
+    list-style: none;
+    color: orange;
+    margin-left: -40px;
+}
+.section3 .boxes .box h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+.section3 .boxes .box p{
+    color: rgb(59, 59, 59);
+}
+
+/* newsletter styling */
+
+.section3 .newsletter{
+    display: flex;
+    background-color: black;
+    padding: 40px 40px;
+    margin: 20px 100px;
+    border-radius: 20px;
+    gap: 40px;
+}
+.section3 .newsletter .newsletter-left h1{
+    color: white;
+    font-size: 40px;
+}
+.section3 .newsletter .newsletter-right input{
+    margin-top : 2rem ;
+    width: 25rem ;
+    background-color: white;
+    padding: 0.8rem;
+    border-radius: 20px;
+    
+}
+.newsletter-btn{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.newsletter-btn:hover{
+    cursor: pointer;
+}
+#footer-top{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 85%;
+    margin-left: 100px;
+    line-height: 30px;
+}
+#footer-top i{
+    font-size: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#footer-top .list p{
+    font-size: 15px;
+    width: 60%;
+    color: rgb(83, 83, 83);
+}
+#line-break {
+    margin-top: 50px;
+    font-size: 1px;
+    width: 85%;
+}
+
+/* footer styling */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px 50px;
+}
+
+
+
+
+/* Login page styling */
+
+
+#login-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10%;
+    background-color: white;
+    width: 40%;
+    margin-left: 30%;
+}
+#login-page #btn-1{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 30%;
+    border-radius: 40px;
+    text-decoration: none;
+}
+#login-page #btn-2{
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 15px 29%;
+    border-radius: 40px;
+    text-decoration: none;
+}
+#login-page #login-page-anchor a{
+    text-decoration: none;
+    color: blue;
+}
+#login-page #login-page-anchor{
+    display: flex;
+    gap: 10px;
+}
+#login-page #login-page-anchor hr{
+    height: 30px;
+    border: 1px solid black;
+    margin-top: -8px;
+}
+
+/* Signup page style */
+
+#signup-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10%;
+    background-color: white;
+    width: 40%;
+    margin-left: 30%;
+}
+#signup-page #btn-1{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 29%;
+    border-radius: 40px;
+    text-decoration: none;
+}
+#signup-page #btn-2{
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 15px 30%;
+    border-radius: 40px;
+    text-decoration: none;
+}
+#signup-page #login-page-anchor a{
+    text-decoration: none;
+    color: blue;
+}
+
+/* password reset page style */
+
+#password-reset-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10%;
+    background-color: white;
+    width: 40%;
+    margin-left: 30%;
+}
+#password-reset-page #btn-1{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 30%;
+    border-radius: 40px;
+    text-decoration: none;
+}
+#password-reset-page #btn-2{
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 15px 29%;
+    border-radius: 40px;
+    text-decoration: none;
+}
